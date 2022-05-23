@@ -1,10 +1,20 @@
-import React from "react";
+import React, {Component} from "react";
 
-class Hello extends React.Component{
+//Class components option 1
+// class Hello extends React.Component{
+//     render(){
+//         return(
+//             <div>Hi,how are you?</div>
+//         )
+//     }
+// }
+
+//option 2
+class Hello extends Component{
     render(){
         return(
-            <div>Hi,how are you?</div>
+            <div>Hi,how are u?</div>
         )
     }
 }
-export default Hello
+ export default Hello;
